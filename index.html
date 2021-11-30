@@ -1,75 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap 4 Website Example</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
-</head>
-<body>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>Welcome to The Page of Khalid Hasan</h1>
-</div>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="">Home</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="khalid_resume.pdf" target="_blank">CV</a>
-      </li>   
-    </ul>
-  </div>  
-</nav>
-
-<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>About Me</h3>
-      <h5>Photo of me:</h5>
-      <p>I am working as a back-end developer at the product engineering team of Intelligent Machines Ltd. 
-        I have completed my Bachelor's degree in Computer Science and Engineering in October 2018 from 
-        <a href="https://cse.buet.ac.bd" target="_blank">CSE, BUET.</a></p>
-      <hr class="d-sm-none" />
-    </div>
-    <div class="col-sm-8">
-      <h3>Khalid Hasan</h3>
-      Back-end Developer
-      <br/>
-      Intelligent Machines Limited
-      <br/>
-      Dhaka, Bangladesh
-      <br/>
-      E-mail: 72.khalidhasan@gmail.com, 1305072.kh@ugrad.cse.buet.ac.bd
-      <br/><br/><br/>
-      
-      <h3>Research Interests</h3>
-      My research interests are programming language, software engineering, and databases.
-      <br/><br/><br/>
-    </div>
-  </div>
-</div>
-
-<div class="bg-dark text-center" style="margin-bottom:0">
-  &#169; 2020 Khalid Hasan
-</div>
-
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Khalid Hasan</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Dev icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Khalid Hasan</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="khalid_resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Khalid
+                        <span class="text-primary">Hasan</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Dhaka, Bangladesh · (+880) 1521496174 ·
+                        <a href="mailto:72.khalidhasan@email.com">72.khalidhasan@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/khalidshawon/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.github.com/shawontafsir/" target="_blank"><i class="fab fa-github"></i></a>
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
+                        <a class="social-icon" href="https://www.facebook.com/72.khalidhasan/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <!-- Publications-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publications</h2>
+                    
+                    <p><b class="bg-primary"><font color="white"> ESEM'2021  </font></b></b> &nbsp;<b>Khalid Hasan</b>, Partho Chakraborty, Rifat Shahriyar, Anindya Iqbal, and Gias Uddin. 2021. A Survey-Based Qualitative Study to Characterize Expectations of Software Developers from Five Stakeholders. In Proceedings of the 15th ACM / IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) (ESEM '21). Association for Computing Machinery, New York, NY, USA, Article 4, 1–11. DOI: <a href="https://doi.org/10.1145/3475716.3475787" target="_blank">https://doi.org/10.1145/3475716.3475787</a></p>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer, Back-End</h3>
+                            <div class="subheading mb-3">Intelligent Machines Ltd., Dhaka, Bangladesh</div>
+                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2020 - Present</span></div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer, Full Stack</h3>
+                            <div class="subheading mb-3">Infosapex Ltd., Dhaka, Bangladesh</div>
+                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2018 - March 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bangladesh University of Engineering and Technology</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science and Engineering</div>
+                            <!-- <p>GPA: 3.28</p> -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2014 - October 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cumilla Victoria Govt. College</h3>
+                            <div class="subheading mb-3">Higher Secondary Certificate (HSC)</div>
+                            <div>Science</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2011 - May 2013</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    
+                    <!--table style="text-align:left">
+              <tr>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="fab fa-python dev-icons"></i><br><span>Python</span></td>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="devicon-cplusplus-line dev-icons"></i></i><br><span>Cpp</span></td>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="fab fa-java dev-icons"></i><br><span>Java</span></td>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="devicon-c-line-wordmark dev-icons"></i><br><span>C</span></td>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="fab fa-js dev-icons"></i><br><span>Javascript</span></td>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="devicon-django-plain dev-icons"></i></td>
+                <td style="padding:0 15px 0 0px; text-align:center"><i class="devicon-kubernetes-plain dev-icons"></i></td>
+              </tr>
+            </table><br><br-->
+                    
+                    
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="devicon-python-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-cplusplus-line-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-java-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js dev-icons"></i></li>
+                        <li class="list-inline-item"><i class="devicon-django-line-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-html5-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-git-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-postgresql-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-docker-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-kubernetes-plain-wordmark"></i></li>
+                    </ul>
+                    <!--
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                    -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
-
